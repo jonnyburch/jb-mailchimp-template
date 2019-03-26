@@ -1,4 +1,4 @@
-<img style="border: 1px solid #ddd" src="jb-mailchimp-tempalte.png" alt="preview" >
+<div style="border: 1px solid #ddd; max-width: 400px;"><img style="max-width: 100%;" src="jb-mailchimp-tempalte.png" alt="preview" ></div>
 
 # My really simple mailchimp template
 
