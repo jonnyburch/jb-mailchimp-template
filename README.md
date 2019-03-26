@@ -1,4 +1,4 @@
-<img style="border: 1px solid #ddd" src="url('/jb-mailchimp-tempalte.png')" alt="preview" >
+<img style="border: 1px solid #ddd" href="url('/jb-mailchimp-tempalte.png')" alt="preview" >
 
 # My really simple mailchimp template
 
