@@ -1,4 +1,6 @@
-![preview](jb-mailchimp-tempalte.png)
+<div style="border: 1px solid #ddd">
+  ![preview](jb-mailchimp-tempalte.png)
+</div>
 
 # My really simple mailchimp template
 
