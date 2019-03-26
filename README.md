@@ -1,8 +1,10 @@
+![preview](jb-mailchimp-tempalte.png)
+
 # My really simple mailchimp template
 
 Most of the mailchimp templates are too... newslettery, but some basic styling is kinda nice. I'm using this for my personal site [jonnyburch.com](http://jonnyburch.com) as well as all things [Progression](http://progressionapp.com).
 
-Preview [here](https://www.dropbox.com/s/0jdzgr9b53q01aa/Screenshot%202019-03-26%2014.44.44.png?dl=0).
+Full Preview [here](https://www.dropbox.com/s/0jdzgr9b53q01aa/Screenshot%202019-03-26%2014.44.44.png?dl=0).
 
 **Have at it!**
 
