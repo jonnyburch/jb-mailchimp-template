@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <!-- NAME: VERY PLAIN TEXT -->
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>*|MC:SUBJECT|*</title>
+    
+  <style type="text/css">
+		body{
+			max-width:600px;
+			padding:8px;
+			font-family:sans-serif;
+			color:#333333;
+			background-color:#ffffff;
+			font-size:16px;
+			line-height:1.5;
+		}
+		img{
+			max-width:100%;
+			height:auto;
+		}
+		p{
+			font-size:16px;
+			line-height:1.6;
+		}
+		a{
+			text-decoration:none;
+			color:#333333;
+			border-bottom:2px solid #66a5b7;
+		}
+		a.button{
+			text-decoration:none;
+			color:#fff;
+			font-weight:bold;
+			background-color:#66a5b7;
+			padding:12px 14px;
+			border-radius:4px;
+			font-size:14px;
+		}
+		a.brand,.footer a.brand{
+			border-bottom:none;
+		}
+		.footer{
+			margin-top:40px;
+			padding-top:10px;
+			border-top:2px solid #eeeeee;
+			font-size:12px;
+			color:#999999;
+		}
+		.footer a{
+			color:#999999;
+			border-bottom:2px solid #cccccc;
+		}
+		ul.link-list{
+			list-style-type:none;
+			padding-left:0;
+			padding-top:16px;
+			padding-bottom:16px;
+		}
+		li.link-holder{
+			padding-top:8px;
+			margin-left:0;
+		}
+		.link-title{
+			margin-bottom:0;
+		}
+		.link-description{
+			margin-top:8px;
+			color:#777777;
+		}
+	@media only screen and (min-width:480px){
+		body{
+			padding:16px !important;
+		}
+
+}	@media only screen and (min-width:480px){
+		p{
+			font-size:18px !important;
+		}
+
+}	@media only screen and (min-width:480px){
+		.footer p{
+			font-size:12px !important;
+		}
+
+}	/*
+	@tab Page
+	@style heading 1
+	*/
+		h1{
+			/*@tab Page
+@style heading 1*/color:#222222;
+			font-size:30px;
+			line-height:1.2;
+		}
+		h2{
+			/*@tab Page
+@style heading 2*/color:#222222;
+			font-size:22px;
+			line-height:1.2;
+		}
+	/*
+	@tab Page
+	@style heading 3
+	*/
+		h3{
+			/*@tab Page
+@style heading 3*/color:#333333;
+			font-size:18px;
+			line-height:1.2;
+		}
+</style></head>
+  <body>
+    <a class="brand" href="http://jonnyburch.com"><img src="https://gallery.mailchimp.com/7cc3abda138b6a495ae2b2b2f/images/c97c1d23-b8aa-46f0-9ab0-68cd0760906c.png" style="width: 110px; padding-top: 16px; padding-bottom: 24px;" alt="a33f453a-e4f1-429c-8d61-c76b020ebd8a.png"></a>
+    <div mc:edit="header">
+      <p>*|IF:FNAME|* Hi *|FNAME|*, *|ELSE:|* Hi, *|END:IF|*</p>
+    </div>
+    <br>
+    <div mc:edit="body">
+      <h1>Header 1</h1>
+      <h2>Header 2</h2>
+      <h3>Header 3</h3>
+      <p>Body Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p><a href="#">link</a>
+    </p>
+    <br>
+    <p><a class="button" href="#">button</a>
+  </p>
+  
+  <ul class="link-list">
+    <li class="link-holder">
+      <h3 class="link-title">
+        <a href="#">Link Title</a>
+      </h3>
+      <p class="link-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </li>
+    <li class="link-holder">
+      <h3 class="link-title">
+        <a href="#">Link Title</a>
+      </h3>
+      <p class="link-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </li>
+  </ul>
+</div>
+<div class="footer" mc:edit="footer">
+  <p>*|IFNOT:ARCHIVE_PAGE|* *|LIST:DESCRIPTION|* *|END:IF|*</p>
+  <p><a href="*|UNSUB|*">unsubscribe</a> | <a href="*|UPDATE_PROFILE|*">edit preferences</a>
+</p>
+<p>*|IF:REWARDS|* *|HTML:REWARDS|* *|END:IF|*</p>
+</div>
+</body>
+</html>
